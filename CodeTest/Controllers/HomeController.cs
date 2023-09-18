@@ -117,7 +117,6 @@ namespace PruebaIngreso.Controllers
 
         public async Task<ActionResult> Test4()
         {
-
             var url = "https://codetest.free.beeceptor.com/margin/" + codigos + "";
             var decorador = new Decorador();
             dynamic ObtenerResultadoApi = await decorador.getResultApiAsync(url);
